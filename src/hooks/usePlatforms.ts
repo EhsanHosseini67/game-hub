@@ -7,6 +7,6 @@ interface platform {
     slug: string;
 }
 
-const usePlatforms = () => useData<platform>('platforms/list/parents');
+const usePlatforms = () => useData<platform>('platforms/lists/parents');
 
 export default usePlatforms;
